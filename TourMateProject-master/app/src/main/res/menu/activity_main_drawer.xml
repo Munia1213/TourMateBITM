@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nearbyPlace"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Nearby Place" />
+
+        <item
+            android:id="@+id/nav_weatherInfo"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="Weather Information" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>
